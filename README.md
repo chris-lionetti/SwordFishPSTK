@@ -26,3 +26,16 @@ To get subordinate information about an object, i.e to return information such a
 An example of this would be the Power or Thermal metrics gathered by the Chassis object. These each has three detailed objects (metrics) under each of these detailed nouns; i.e. Power has as metrics <PowerControl>,<PowerSupplies>, and <Voltages>. So the command for this would appear as such;
 PS:> Get-SwordFishChassisPower -MetricName Voltages
   
+The current list of supported commands are as follows
+  Connect-SwordFishTarget
+  Get-SwordFishChassis
+  Get-SwordFishChassisPower
+  Get-SwordFishChassisThermal
+  Get-SwordFishClassOfService
+  Get-SwordFishClassOfServiceLineOfService
+  Get-SwordfishDrive
+  Get-SwordFishEndpoint
+  Get-SwordFishStorageGroup
+  Get-SwordFishStoragePool
+  Get-SwordFishStorageService
+  Get-SwordFishVolume
